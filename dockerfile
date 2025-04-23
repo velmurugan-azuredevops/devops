@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-COPY firstapp.py .
+COPY fisrtapp.py .
 COPY requirments.txt .
 RUN pip3 install -y requirements.txt
 EXPOSE 8000
